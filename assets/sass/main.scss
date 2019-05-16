@@ -1,0 +1,101 @@
+@import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Monofett');
+@import "reset";
+
+$lightBlue: rgb(80, 134, 242);
+$DarkBlue: rgb(63, 106, 191);
+$PaleBlue: rgb(213, 231, 242);
+$LimeGreen: rgb(72, 217, 176);
+$PaleGold: rgb(242, 183, 5);
+
+*, h1, h2, h3, h4, h5 h6, p, span, div{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: white;
+}
+html, body{
+  background: white;
+  height: 100%;
+}
+#home{
+  background: url('https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .welcome-box{
+    background: rgba(0,0,0, .4);
+    padding: 10px;
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 28px;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+  }
+}
+#all-tasks{
+  background: url('https://images.pexels.com/photos/355747/pexels-photo-355747.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260') center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  // height: 300px;
+  background-size: cover;
+  .header{
+    background: rgba(black, .3);
+    padding: 50px 15px;
+    text-align: right;
+    .logo{
+      font-family: 'Monofett', cursive;
+      float: left;
+      font-size: 45px;
+    }
+    .tasks-status{
+      position: relative;
+      top: -12px;
+      .task{
+        .number{
+          color: $LimeGreen;
+          font-size: 40px;
+          margin: 0 5px 0 0 ;
+          position: relative;
+          top: 4px;
+          text-shadow: -1px 2px green;
+          border-radius: 50%;
+        }
+        .text{
+          font-weight: 300;
+        }
+      }
+    }
+    .add-circle{
+      .fas{
+        color: $PaleGold;
+        font-size: 36px;
+        position: relative;
+        top: 80px;
+        right: -10px;
+        background: white;
+        border-radius: 50%;
+        border-style: none;
+        padding: 2px;
+      }
+    }
+  }
+}
+.content-area{
+  .container{
+    max-width: 960px;
+  }
+}
+
+.btn{
+  background: $lightBlue;
+  margin: 15px 0;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+}

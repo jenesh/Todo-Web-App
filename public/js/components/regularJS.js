@@ -1,11 +1,8 @@
 webpackJsonp([0],[
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-
-
-console.log('Welcome To The Rocky Stack');
+throw new Error("Module build failed: Error: Couldn't find preset \"es2015\" relative to directory \"/Users/jeneshnapit/Desktop/Projects/TodoAppHTML\"\n    at /Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/options/option-manager.js:293:19\n    at Array.map (<anonymous>)\n    at OptionManager.resolvePresets (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/options/option-manager.js:275:20)\n    at OptionManager.mergePresets (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/options/option-manager.js:264:10)\n    at OptionManager.mergeOptions (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/options/option-manager.js:249:14)\n    at OptionManager.init (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\n    at File.initOptions (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/index.js:212:65)\n    at new File (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/file/index.js:135:24)\n    at Pipeline.transform (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\n    at transpile (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-loader/lib/index.js:46:20)\n    at Object.module.exports (/Users/jeneshnapit/Desktop/Projects/TodoAppHTML/Todo-Web-App/node_modules/babel-loader/lib/index.js:163:20)");
 
 /***/ })
 ],[0]);
